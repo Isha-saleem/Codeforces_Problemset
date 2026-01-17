@@ -1,0 +1,11 @@
+
+row1 = input().strip()
+row2 = input().strip()
+row3 = input().strip()
+
+password = row1 + row2 + row3
+
+if password == password[::-1]:
+    print("YES")
+else:
+    print("NO")
